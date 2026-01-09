@@ -1,0 +1,104 @@
+    <section class="combo-plans">
+        <div class="container">
+        <h2 class="text-center section-title text-black">Internet Plans</h2>
+        
+        <div class="row g-4">
+        
+            <!-- 100 Mbps -->
+            <div class="col-md-3 col-sm-6">
+            <div class="plan-card text-center">
+                <div class="plan-speed">100 Mbps</div>
+        
+                <div class="ott-icons">
+                <img src="images/icons/jio-star.png">
+                <img src="images/icons/zee5.png">
+                <img src="images/icons/sonilive.png">
+                <img src="images/icons/discovery.png">
+                <img src="images/icons/hungama.png">
+                <img src="images/icons/funcode.png">
+              
+                </div>
+        
+                <div class="price-box">
+                <span>Starting at</span>
+                <strong>₹633 / month</strong>
+                </div>
+        
+                <a data-bs-toggle="modal" data-bs-target="#enquiryModal" class="buy-btn"> Get Started</a>
+            </div>
+            </div>
+        
+            <!-- 200 Mbps (Popular) -->
+            <div class="col-md-3 col-sm-6">
+            <div class="plan-card text-center">
+                <span class="badge-popular mb-2 d-inline-block">Most Popular</span>
+                <div class="plan-speed">200 Mbps</div>
+        
+                <div class="ott-icons">
+                    <img src="images/icons/prime-video.png">
+                    <img src="images/icons/jio-star.png">
+                    <img src="images/icons/zee5.png">
+                    <img src="images/icons/sonilive.png">
+                    <img src="images/icons/discovery.png">
+                    <img src="images/icons/sun_Nxt.png">
+                </div>
+        
+                <div class="price-box">
+                <span>Starting at</span>
+                <strong>₹750 / month</strong>
+                </div>
+        
+                <a data-bs-toggle="modal" data-bs-target="#enquiryModal" class="buy-btn"> Get Started</a>
+            </div>
+            </div>
+        
+            <!-- 300 Mbps -->
+            <div class="col-md-3 col-sm-6">
+            <div class="plan-card text-center">
+                <div class="plan-speed">300 Mbps</div>
+        
+                <div class="ott-icons">
+                    <img src="images/icons/netflix.png">
+                    <img src="images/icons/prime-video.png">
+                    <img src="images/icons/jio-star.png">
+                    <img src="images/icons/zee5.png">
+                    <img src="images/icons/sun_Nxt.png">
+                    <img src="images/icons/sonilive.png">
+                    
+                </div>
+        
+                <div class="price-box">
+                <span>Starting at</span>
+                <strong>₹1200 / month</strong>
+                </div>
+        
+                <a data-bs-toggle="modal" data-bs-target="#enquiryModal" class="buy-btn"> Get Started</a>
+            </div>
+            </div>
+        
+            <!-- 500 Mbps -->
+            <div class="col-md-3 col-sm-6">
+            <div class="plan-card text-center">
+                <div class="plan-speed">500 Mbps</div>
+        
+                <div class="ott-icons">
+                    <img src="images/icons/netflix.png">
+                    <img src="images/icons/prime-video.png">
+                    <img src="images/icons/jio-star.png">
+                    <img src="images/icons/zee5.png">
+                    <img src="images/icons/sun_Nxt.png">
+                    <img src="images/icons/discovery.png">
+                </div>
+        
+                <div class="price-box">
+                <span>Starting at</span>
+                <strong>₹2000 / month</strong>
+                </div>
+        
+                <a data-bs-toggle="modal" data-bs-target="#enquiryModal" class="buy-btn"> Get Started</a>
+            </div>
+            </div>
+        
+        </div>
+        </div>
+    </section>
