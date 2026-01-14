@@ -792,11 +792,10 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .hero{
-	position: relative;
-	background: url(../images/bero-bg.jpg) no-repeat;
-	background-position: center center;
-	background-size: cover;
-	padding: 320px 0;
+	
+	/* background: url(../images/bero-bg.jpg) no-repeat; */
+
+	/* padding: 320px 0; */
 }
 
 /* .hero::before{
@@ -1226,11 +1225,19 @@ header.main-header .header-sticky.active{
 		padding: 25px;
 	}
   }
-  
+  .ban-head{
+	background-color: #ffc067; font-size: 1.5rem; border: 3px solid #fff; border-radius: 50px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px;
+}
   @media (max-width: 768px) {
+	
 	.text-content {
 		padding: 25px;
 	}
+	.ban-head {
+		background-color: #ffc067;
+		font-size: 1rem;
+	}
+	
 	.ott-table th,
 	.ott-table td {
 	  padding: 10px;
@@ -5027,7 +5034,7 @@ header.main-header .header-sticky.active{
 	}
 	
 	.hero{
-		padding: 110px 0;
+		/* padding: 110px 0; */
 	}
 
 	.hero.hero-slider-layout .hero-slide{

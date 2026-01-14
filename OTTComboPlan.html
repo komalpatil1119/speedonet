@@ -157,8 +157,7 @@
 
             <div class="wow fadeInUp mt-3" data-wow-delay="0.4s"
               style="visibility: visible; animation-name: fadeInUp; animation-delay: 0.4s;" bis_skin_checked="1">
-              <span class="d-inline-block py-3 px-5 text-dark"
-                style="background-color: #ffc067; font-size: 1.5rem; border: 3px solid #fff; border-radius: 50px; font-weight: 800; text-transform: uppercase; letter-spacing: 2px;">
+              <span class="d-inline-block ban-head py-3 px-5 text-dark">
                 GPON Router Free to Use
               </span>
             </div>
@@ -196,12 +195,22 @@
         line-height: 1.6;
         text-align: center;
       }
-
+      .plan-top1 .p-btn{
+        background: #05cf7b;
+        border-radius: 20px;
+        padding: 3px 11px;
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 600;
+        margin: -35px auto 9px;
+        width: 82px;
+        text-align: center;
+      }
       .plan-card {
         height: 100%;
         background: #fff;
         /* Matrix Border Color */
-        border: 1px solid rgba(0, 0, 0, 0.06);
+        border: 1px solid rgb(11 42 111);
         border-radius: 18px;
         /* Matched Matrix radius */
         padding: 24px;
@@ -374,6 +383,14 @@
         font-size: 13px;
         font-weight: 600;
       }
+      @media (max-width: 768px) {
+        .plan-top1 .p-btn {
+          margin: -10px auto 9px;
+        }
+        .mtop{
+          margin-top: 15px;
+        }
+      }
     </style>
 
     <div class="container" bis_skin_checked="1">
@@ -427,11 +444,12 @@
             </div>
           </div>
         </div>
-
-        <div class="col-md-3 col-sm-6" bis_skin_checked="1">
+       
+        <div class="col-md-3 col-sm-6 plan-top1" bis_skin_checked="1">
+          <p class="p-btn">BEST DEAL</p>
           <div class="plan-card popular text-center" bis_skin_checked="1">
             <div class="plan-top" bis_skin_checked="1">
-
+                   
               <div class="plan-speed" bis_skin_checked="1">
                 200 Mbps
                 <small>Unlimited Internet</small>
@@ -477,7 +495,7 @@
         </div>
 
         <div class="col-md-3 col-sm-6" bis_skin_checked="1">
-          <div class="plan-card text-center" bis_skin_checked="1">
+          <div class="plan-card text-center mtop" bis_skin_checked="1">
             <div class="plan-top" bis_skin_checked="1">
               <div class="plan-speed" bis_skin_checked="1">
                 300 Mbps
