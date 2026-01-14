@@ -793,7 +793,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url(../images/bero-bg.jpeg) no-repeat;
+	background: url(../images/bero-bg.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 320px 0;
@@ -832,7 +832,25 @@ header.main-header .header-sticky.active{
 	height: 100%;
 	object-fit: cover;
 }
-
+.months-div{
+	
+	display: flex;
+    justify-content: space-around;
+	background: #be0f541a;
+    border: 1px solid #ffcce1;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+.months-div p{
+	margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 600;
+    color: #0055a9;
+}
+.months-div h6{
+	font-size: 14px;
+}
 .hero.hero-slider-layout{
 	background: none;
 	padding: 0;
